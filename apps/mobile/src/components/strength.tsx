@@ -27,7 +27,7 @@ const Strength = (props: Props) => {
                   styles.bar,
                   {
                     width: Constants.STRENGTH_BAR_CONFIG[num].width,
-                    backgroundColor: num <= props.value ? '#315d6f' : '#bcdee5',
+                    backgroundColor: num <= props.value ? '#59a4b9' : '#bcdee5',
                   },
                 ]}>
                 <></>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 20,
-    color: 'gray',
+    color: 'white',
     marginBottom: 20,
   },
   bar: {

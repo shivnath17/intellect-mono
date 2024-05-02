@@ -38,7 +38,7 @@ function App(): React.JSX.Element {
         style={backgroundStyle}> */}
       <View
         style={[
-          { backgroundColor: isDarkMode ? Colors.black : Colors.white },
+          { backgroundColor: "#315d6f" },
           styles.container,
         ]}>
         <Strength
