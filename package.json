@@ -1,0 +1,30 @@
+{
+  "name": "intellect-mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "utils": "pnpm --filter utils",
+    "web": "pnpm --filter web",
+    "mobile": "pnpm --filter mobile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.16.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^9.1.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "globals": "^15.1.0",
+    "prettier": "^3.2.5",
+    "typescript-eslint": "^7.8.0"
+  }
+}
